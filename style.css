@@ -1,0 +1,91 @@
+body {
+  background-color: #F1FEF4;
+  font-family: 'Roboto Slab', serif;
+  color: #011b33;
+  font-size: 16px;
+  line-height:1.2;
+
+}
+
+.card {
+background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+div {
+width: 800px;        /* Set the width */
+margin: 0 auto;      /* Set automatic margins on right/left */
+text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  height:100px;
+  width: 100px;
+}
+
+h1 h2 h3 {
+
+}
+
+
+.btn-green {
+    background-color: #3bb75e;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-top: 100px;
+}
+
+.btn-green:hover {
+
+    color: black;
+
+}
+
+a {
+  text-decoration: none;
+  color:#3bb75e;
+
+}
+
+
+
+
+a:hover {
+  color: black;
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
+}
